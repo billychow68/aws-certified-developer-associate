@@ -8,4 +8,4 @@ Resources:
       Runtime: nodejs8.10
       Environment:
         Variables: 
-          S3_BUCKET: cfsambucket-faye
+          S3_BUCKET: acloudguru-cfsambucket
