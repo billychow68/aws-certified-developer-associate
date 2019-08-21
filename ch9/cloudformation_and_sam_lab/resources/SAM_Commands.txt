@@ -11,7 +11,7 @@ bucket: aws s3 mb s3://cfsambucket --region eu-west-2  #use the bucket name and 
 sam package \
 --template-file ./lambda.yml \
 --output-template-file sam-template.yml \
---s3-bucket cfsambucket
+--s3-bucket acloudguru-cfsambucket
 
 #use the bucket name you used in the previous step
 
