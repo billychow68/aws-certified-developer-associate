@@ -19,5 +19,5 @@ sam package \
 
 sam deploy \
 --template-file sam-template.yml \
---stack-name mystack \
+--stack-name MyCloudFormationLabStack \
 --capabilities CAPABILITY_IAM
